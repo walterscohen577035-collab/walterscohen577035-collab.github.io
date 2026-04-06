@@ -2,3 +2,13 @@ title: muzkcoin Blog
 author: muzkcoin     
 description: >-          
   Share my thoughts and insights about crypto compliance and technology.
+
+theme: minima            
+minima:
+  skin: classic          
+permalink: /:year/:month/:day/:title/
+paginate: 5
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed`
